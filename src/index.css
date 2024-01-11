@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+@import url('./responsive.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body
+{
+    height: 100%;
+    background-color: #111315;;
+}
+
+
+
+.main {
+  background-image: url('./assets/bg-cafe.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.bg-main {
+  background-size:  contain;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: rgb(111, 117, 124);
+    line-height: normal;
+}
